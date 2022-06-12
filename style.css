@@ -1,0 +1,284 @@
+* {
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0F2F5;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 8px;
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.menu{
+    width: 40%;
+}
+
+.icons{
+    width: 10%;
+}
+
+.logo{
+    width: 15%;
+    margin-left: 10px;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+.menu ul,
+.icons ul, .logo {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* icons size */
+.fa-2x{
+    font-size: 1.5em !important;
+    color: #65676B;
+}
+
+.material-symbols-outlined{
+    font-size: 1.8em !important;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #F0F2F5;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    width: 15%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.left-side ul li {
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.left-side ul li:hover{
+    background-color: #E4E6EB;
+    transition: .1s;
+}
+
+.right-side{
+    width: 15%;
+    margin-top: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts material-symbols-outlined{
+    font-size: 1px !important;
+}
+
+.icon ul{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.icon ul li{
+    margin-right: 1em;
+}
+
+.birthday{
+    display: flex;
+    flex-direction: column;
+}
+
+.birthday-text{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.profiles ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.profiles ul li img{
+    border-radius: 20px;
+}
+
+.profiles ul li:hover{
+    background-color: #E4E6EB;
+    transition: .1s;
+    border-radius: 7px;
+}
+
+/* center */
+.center{
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.center-container{
+    width: 60%;
+    /* padding: 1em; */
+    border-radius: 7px;
+}
+
+.stories{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#stories-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#stories-heading p {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#stories-heading p:hover {
+    background-color: #E4E6EB;
+    border-radius: 7px;
+}
+
+#stories-image ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#stories-image ul li img{
+    border-radius: 15px;
+}
+
+.mind{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+}
+
+#profile > input{
+    margin-left: 10px;
+    width: 100%;
+}
+
+#titles ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#titles ul li, #top-area span{
+    display: flex;
+    align-items: center;
+}
+
+.suggestion{
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+}
+
+#top-area{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#top-area .fa-brands{
+    font-size: 50px !important;
+}
+
+.feed-image{
+    width: 100%;
+}
+
+#emoji{
+    display: flex;
+    justify-content: space-between;
+}
+
+#emoji ul{
+    display: flex;
+    list-style-type: none;
+    width: 10%;
+    justify-content: space-around;
+}
+
+#like-comment{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+#like-comment span{
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#like-comment span:hover{
+    background-color: #E4E6EB;
+    transition: .2s;
+}
+
+#top-area img, .left-side img{
+    border-radius: 20px;
+}
+
+
